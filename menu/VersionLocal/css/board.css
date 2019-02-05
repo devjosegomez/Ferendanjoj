@@ -1,0 +1,30 @@
+#board {
+  height: 33em;
+  border: solid black 2px;
+  border-radius: 5px;
+  background-color: #2ECC71;
+}
+
+.note {
+  font-family: "Roboto", cursive;
+  font-size: 0.85em;
+  border: solid #93a500 1px;
+  color: #656D77;
+  border-radius: 0.35em;
+  height: 130px !important;
+  width: 150px !important;
+/*
+  height: 1.5in;
+  width: 2.4in;
+*/
+  position: absolute;
+  background-color: #f5ffa5;
+  padding: 1em;
+  box-shadow: 0.05em 0.05em 0.1em black;
+}
+
+.note.raised { box-shadow: 0.2em 0.2em 0.5em black; }
+
+#undo, #reset{
+    
+}
